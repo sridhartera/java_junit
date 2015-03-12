@@ -1,0 +1,14 @@
+ArrayList<Book> list = new ArrayList<Book>();
+
+Book b1 = new Book("book1");
+Book b2 = new Book("book2");
+list.add(b1);
+list.add(b2);
+
+Person p1 = new Person();
+p1.setName("tera");
+
+b1.setPerson(p1);
+b1.getPerson();
+
+list.get(0).getPerson().getName()
